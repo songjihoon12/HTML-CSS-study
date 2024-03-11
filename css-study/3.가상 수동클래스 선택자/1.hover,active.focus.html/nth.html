@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <style>
+      #food li:last-child{
+        background: burlywood;
+      }
+      
+      #fruits li:nth-child(1) {
+        color: red;
+      }
+      #fruits li:first-child{
+        font-size: 24px;
+      }
+      #fruits li:nth-child(2n){
+        background: aquamarine;
+      }
+      #fruits li:nth-child(2n+1){
+        background: rgb(202, 189, 10);
+      }
+      #fruits li:nth-child(n + 3){
+        font-style: italic;
+      }
+      #food li:not(.bread){
+        list-style: none;
+      }
+      .sports div:nth-of-type(2){
+        background: blue;
+      }
+
+
+    </style>
+</head>
+<body>
+
+  <div class="sports">
+    <div>축구</div>
+    <div>농구</div>
+    <div>배구</div>
+    <p>하하호호</p>
+    <div>야구</div>
+  </div>
+
+  <ul id="food">
+    <li class="bread">빵</li>
+    <li>밥</li>
+    <li>면</li>
+  </ul>
+
+
+  <ul id="fruits">
+    <li>사과</li>
+    <li>포도</li>
+    <li>귤</li>
+    <li>배</li>
+    <li>감</li>
+    <li>수박</li>
+    <li>오렌지</li>
+  </ul>
+</body>
+</html>
