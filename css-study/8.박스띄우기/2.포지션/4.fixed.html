@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      height: 2000px;
+    }
+    header{
+      border-bottom: 2px solid gray;
+      width: 100%;
+      position: fixed;
+      top: 0;
+    }
+    header h1{
+      font-size: 40px;
+      padding: 0;
+      margin: 20px 20px 30px;
+      /* background: orange; */
+      float: left;
+    }
+    header nav{
+      /* background: tomato; */
+      float: right;
+    }
+    .clearfix::after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    header nav ul{
+      list-style: none ;
+      padding: 0;
+
+    }
+    header nav li{
+      /* border: 1px solid #000; */
+      float: left;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-right: 30px;
+    }
+    span{
+      margin-top: 150px;
+      width: 200px; 
+      height: 200px;
+      background: orange;
+      font-size: 3em;
+      
+    }
+  </style>
+</head>
+<body>
+
+  <header class="clearfix">
+    <h1>logo</h1>
+    <nav>
+      <ul class="clearfix">
+        <li>소개</li>
+        <li>커뮤니티</li>
+        <li>자료실</li>
+        <li>회원가입</li>
+      </ul>
+    </nav>
+  </header>
+
+  <span>룰루랄라</span>
+
+  
+</body>
+</html>
