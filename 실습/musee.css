@@ -1,17 +1,95 @@
 @import url(../css-study/common.css);
 body{
-  background: lightgray
+  background: lightgray;
 }
-header{
+#wrapper header h1{
   background: orange;
-  width: 80%;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
   text-align: center;
-  margin: auto;
+  padding: 15px;
+}
+#wrapper header h1 span{
+  font-size: 1rem;
+  display: block;
+  margin-top: 20px;
+
+}
+#wrapper{
+  margin: 0 auto ;
+  width: 1500px;
+  background: white;
+}
+#wrapper header h2{
+  text-align: center;
+  background: gray;
+  padding: 5px;
+  font-size: 0.8em;
+}
+.container .side-menu h3{
+  background: red;
+  padding: 5px;
   color: white;
 }
-header h1{
-  font-size: 3em;
+.container .side-menu ul li{
+  background: white;
+  line-height: 2;
+  text-decoration: underline;
 }
-header h1 span{
-  font-size: 1em;
+.main-content {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  background: lightgrey;
+  height: 700px;
 }
+.side-menu{
+  float: left;
+  width: 25%;
+}
+.banner{
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.main-content .art-piece a{
+  background: blue;
+  display: block;
+  color: white;
+}
+.main-content .art-piece .artist{
+  margin: 5px 0  ;
+  color: blue;
+}
+.main-content .art-piece .detail{
+  margin: 5px 0;
+  color: blue;
+}
+.banner .all{
+  color: gray;
+  text-decoration: underline;
+  display: block;
+}
+.banner .love{
+  color: orange;
+  text-decoration: underline;
+  display: block;
+}
+.banner h3{
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.link a{
+  display: block;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 10px;
+}
+footer{
+  background: blue;
+  color: white;
+  text-align: center;
+}
+
+
