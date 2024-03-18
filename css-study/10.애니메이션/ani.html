@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background: yellowgreen;
+        }
+        .box:hover{
+            /* animation: grow-shrink 2s; */
+            animation-name: grow-shrink;
+            animation-duration: 1ms;
+            /* animation-delay: 500ms; */
+            animation-iteration-count: 100000;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+        }
+        @keyframes grow-shrink {
+            0%{
+                width: 100px;
+                background: greenyellow;
+            }
+            50%{
+                width: 500px;
+                background: orange;
+            }
+            100%{
+                width: 300px;   
+                background: violet;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box"></div>
+
+</body>
+</html>
